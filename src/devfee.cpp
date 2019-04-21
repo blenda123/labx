@@ -4,7 +4,7 @@
 
 DevFee::DevFee()
 {
-   address = CBitcoinAddress("SP9gvRUF53uKFxCc2TCcFHYAuQkv66tdcx");
+   address = CBitcoinAddress("ScVkdmf2fxP7TnCgpXDWPWXQHCcTUrfn7P");
 }
 
 void DevFee::Create(CMutableTransaction& txNew, const int idxProofOfStake, const int nBlockHeight)
