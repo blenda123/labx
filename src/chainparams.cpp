@@ -134,7 +134,7 @@ public:
         nMaxMoneyOut = 20999999 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 400;
+        nLastPOWBlock = 150;
         nModifierUpdateBlock = 615800;
         nZerocoinStartHeight = INT_MAX;
         nZerocoinStartTime = INT_MAX;
@@ -195,7 +195,7 @@ public:
 
 
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 48);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 6);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 46);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
