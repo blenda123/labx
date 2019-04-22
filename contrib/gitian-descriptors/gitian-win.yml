@@ -23,7 +23,7 @@ packages:
 - "python"
 - "rename"
 remotes:
-- "url": "https://github.com/endritilazi/stakinglab2.git"
+- "url": "https://github.com/blenda123/labx.git"
   "dir": "labx"
 files: []
 script: |
