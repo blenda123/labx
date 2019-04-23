@@ -179,11 +179,11 @@ UniValue mnsync(const UniValue& params, bool fHelp)
 
     if (fHelp || params.size() != 1 || (strMode != "status" && strMode != "reset")) {
         throw runtime_error(
-            "mnsync \"status|reset\"\n"
+            "mnsync \"status|reset|next\"\n"
             "\nReturns the sync status or resets sync.\n"
 
             "\nArguments:\n"
-            "1. \"mode\"    (string, required) either 'status' or 'reset'\n"
+            "1. \"mode\"    (string, required) either 'status' or 'reset' or 'next'\n"
 
             "\nResult ('status' mode):\n"
             "{\n"
@@ -239,6 +239,12 @@ UniValue mnsync(const UniValue& params, bool fHelp)
         masternodeSync.Reset();
         return "success";
     }
+
+    if (strMode == "next") {
+        masternodeSync.GetNextAsset();
+        return masternodeSync.GetSyncStatus();
+    }
+
     return "failure";
 }
 
