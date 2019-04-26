@@ -2080,8 +2080,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>PIVX core kehittäjät</translation>
+        <source>The LABXX Core developers</source>
+        <translation>LABXX core kehittäjät</translation>
     </message>
     <message>
         <source>The Labx Coin developers</source>

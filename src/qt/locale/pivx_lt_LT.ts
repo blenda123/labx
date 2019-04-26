@@ -176,16 +176,16 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>LABX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar LABX išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų PIV nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>LABX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LABXs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar LABX išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų LABX nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LABX&lt;/b&gt;!</source>
+        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO LABX&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Naršyti pavedimų istoriją</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>zPIV Saugumo Veiksmai </translation>
+        <source>Privacy Actions for zLABX</source>
+        <translation>zLABX Saugumo Veiksmai </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1604,8 +1604,8 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Adresas / Suma:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Pridėkite vietas, kurioms norite siųsti PIV</translation>
+        <source>Add destinations to send LABX to</source>
+        <translation>Pridėkite vietas, kurioms norite siųsti LABX</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1703,32 +1703,32 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Pasirinkite privatumo lygmenį.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 LABX</source>
+        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 LABX</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 LABX</source>
+        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 LABX</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Naudokite 16 atskirų masternod'ų</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 PIV, kad anonimizuotų 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 LABX to anonymize 10000 LABX</source>
+        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 LABX, kad anonimizuotų 10000 LABX</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 PIV, kad anonimizuotų 10000 PIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 LABX to anonymize 10000 LABX</source>
+        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 LABX, kad anonimizuotų 10000 LABX</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tai yra lėčiausias ir saugiausias variantas. Maksimalus anonimiškumas kainuos.</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV kas 1000 PIV kuriuos anonimizuosite.</translation>
+        <source>0.1 LABX per 10000 LABX you anonymize.</source>
+        <translation>0.1 LABX kas 1000 LABX kuriuos anonimizuosite.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1843,24 +1843,24 @@ https://www.transifex.com/labx-project/labx-project-translations</translation>
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Įgalinti automatinį konvertavimą iš PIV į zPIV</translation>
+        <source>Enable automatic minting of LABX units to zLABX</source>
+        <translation>Įgalinti automatinį konvertavimą iš LABX į zLABX</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Įgalinti zPIV Automatinį nukaldinima</translation>
+        <source>Enable zLABX Automint</source>
+        <translation>Įgalinti zLABX Automatinį nukaldinima</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentas gauto PIV, kuris automatiškai bus konvertuotas į zPIV naudojant Zerocoin Protokolą (min: 10%)</translation>
+        <source>Percentage of incoming LABX which get automatically converted to zLABX via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentas gauto LABX, kuris automatiškai bus konvertuotas į zLABX naudojant Zerocoin Protokolą (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Automatiškai sukurtų zPIV procentas</translation>
+        <source>Percentage of autominted zLABX</source>
+        <translation>Automatiškai sukurtų zLABX procentas</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Pageidautinas zPIV Automatinio Nukaldinimo Nominalas</translation>
+        <source>Preferred Automint zLABX Denomination</source>
+        <translation>Pageidautinas zLABX Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
         <source>Connect to the LABX network through a SOCKS5 proxy.</source>
@@ -1982,8 +1982,8 @@ https://www.transifex.com/labx-project/labx-project-translations</translation>
         <translation>Bendras balansas, įskaitant visas nepasiekiamas monetas.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>PIV Balansas</translation>
+        <source>LABX Balance</source>
+        <translation>LABX Balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2010,14 +2010,14 @@ https://www.transifex.com/labx-project/labx-project-translations</translation>
         <translation>Jūsų dabartinis LABX balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Balansas</translation>
+        <source>zLABX Balance</source>
+        <translation>zLABX Balansas</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zLABX are spendable.</source>
         <translation>Subrendę: daugiau nei 20 patvirtinimų ir daugiau nei 1 konvertacija to pačio nominalo, kai jis jau buvo konvertuotas.
-Šiuos zPIV galima išleisti.</translation>
+Šiuos zLABX galima išleisti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2070,8 +2070,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Užrakinti PIV arba Masternode užstatai. Jie yra neįtraukti į zPIV kalimą.</translation>
+        <source>Locked LABX or Masternode collaterals. These are excluded from zLABX minting.</source>
+        <translation>Užrakinti LABX arba Masternode užstatai. Jie yra neįtraukti į zLABX kalimą.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2175,8 +2175,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zLABX</source>
+        <translation>zLABX</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2187,8 +2187,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prieinama Konvertavimui:</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 LABX</source>
+        <translation>0.000 000 00 LABX</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2219,12 +2219,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>PRIVATUMAS</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
+        <source>zLABX Control</source>
         <translation>zPiv Kontrolė</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>Pasirinkta zPIV:</translation>
+        <source>zLABX Selected:</source>
+        <translation>Pasirinkta zLABX:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2243,8 +2243,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prieinamas Balansas: </translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zLABX</source>
+        <translation>0 zLABX</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2283,8 +2283,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Zerocoin Statistika:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zLABX</source>
+        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zLABX</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2461,12 +2461,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Kopijuoti sumą</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV Išleidimas #:</translation>
+        <source>zLABX Spend #: </source>
+        <translation>zLABX Išleidimas #:</translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>zPIV Konvertavimas</translation>
+        <source>zLABX Mint</source>
+        <translation>zLABX Konvertavimas</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2953,8 +2953,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Pasirinktinio pakeitimo adresas</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 LABX</source>
+        <translation>0 LABX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3407,8 +3407,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zLABX</source>
+        <translation>zLABX</translation>
     </message>
     </context>
 <context>

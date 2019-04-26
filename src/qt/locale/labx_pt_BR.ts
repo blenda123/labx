@@ -2681,8 +2681,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>Os desenvolvedores do PIVX Core</translation>
+        <source>The LABXX Core developers</source>
+        <translation>Os desenvolvedores do LABXX Core</translation>
     </message>
     <message>
         <source>The Labx Coin developers</source>
@@ -3343,8 +3343,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do PIVX Core</translation>
+        <source>Copyright (C) 2015-%i The LABXX Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do LABXX Core</translation>
     </message>
     <message>
         <source>Copyright (C) 2017-%i The Labx Coin Developers</source>

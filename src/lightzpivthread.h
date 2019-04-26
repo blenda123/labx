@@ -4,8 +4,8 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
 
-#ifndef LABX_LIGHTZPIVTHREAD_H
-#define LABX_LIGHTZPIVTHREAD_H
+#ifndef LABX_LIGHTZLABXTHREAD_H
+#define LABX_LIGHTZLABXTHREAD_H
 
 #include <atomic>
 #include "genwit.h"
@@ -52,7 +52,7 @@ public:
 
     void StartLightZpivThread(boost::thread_group& threadGroup) {
         LogPrintf("%s thread start\n", "labx-light-thread");
-        threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZPIVSimplified, this));
+        threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZLABXSimplified, this));
     }
 
     void StopLightZpivThread() {
@@ -62,10 +62,10 @@ public:
 
 private:
 
-    void ThreadLightZPIVSimplified();
+    void ThreadLightZLABXSimplified();
 
     void rejectWork(CGenWit& wit, int blockHeight, uint32_t errorNumber);
 
 };
 
-#endif //LABX_LIGHTZPIVTHREAD_H
+#endif //LABX_LIGHTZLABXTHREAD_H

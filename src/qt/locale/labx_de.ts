@@ -3734,8 +3734,8 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
+        <source>Copyright (C) 2015-%i The LABXX Core Developers</source>
+        <translation>Copyright (C) 2015-%i The LABXX Core Developers</translation>
     </message>
     <message>
         <source>Copyright (C) 2017-%i The Labx Coin Developers</source>

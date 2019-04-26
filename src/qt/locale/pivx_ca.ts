@@ -168,16 +168,16 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>LABX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>LABX es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus PIV de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>LABX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LABXs from being stolen by malware infecting your computer.</source>
+        <translation>LABX es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus LABX de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES PIVS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LABX&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES LABXS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1137,24 +1137,24 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 LABX</source>
+        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 LABX</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 LABX</source>
+        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 LABX</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utilitza 16 masternodes diferents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 PIV per anonimitzar 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 LABX to anonymize 10000 LABX</source>
+        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 LABX per anonimitzar 10000 LABX</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 PIV per anonimitzar 10000 PIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 LABX to anonymize 10000 LABX</source>
+        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 LABX per anonimitzar 10000 LABX</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1291,12 +1291,12 @@
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zLABX</source>
+        <translation>zLABX</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 LABX</source>
+        <translation>0.000 000 00 LABX</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1311,8 +1311,8 @@
         <translation>Import:</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zLABX</source>
+        <translation>0 zLABX</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1977,8 +1977,8 @@
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zLABX</source>
+        <translation>zLABX</translation>
     </message>
     </context>
 <context>

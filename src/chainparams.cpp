@@ -270,8 +270,8 @@ public:
         nRejectBlockOutdatedMajority = 5472; // 95%
         nToCheckBlockUpgradeMajority = 5760; // 4 days
         nMinerThreads = 0;
-        nTargetTimespan = 2 * 60; // LABX: 1 day
-        nTargetSpacing = 2 * 60;  // LABX: 1 minute
+        nTargetTimespan = 2 * 60;
+        nTargetSpacing = 2 * 60;
         nLastPOWBlock = 300;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -362,7 +362,7 @@ public:
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
         nTargetTimespan = 24 * 60 * 60; // LABX: 1 day
-        nTargetSpacing = 1 * 60;        // LABX: 1 minutes
+        nTargetSpacing = 2 * 60;        // LABX: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nLastPOWBlock = 250;
         nMaturity = 100;

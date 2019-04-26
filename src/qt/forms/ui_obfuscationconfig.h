@@ -99,13 +99,13 @@ public:
         buttonHigh->setText(QApplication::translate("ObfuscationConfig", "High Privacy", Q_NULLPTR));
         buttonMax->setText(QApplication::translate("ObfuscationConfig", "Maximum Privacy", Q_NULLPTR));
         label->setText(QApplication::translate("ObfuscationConfig", "Please select a privacy level.", Q_NULLPTR));
-        label_2->setText(QApplication::translate("ObfuscationConfig", "Use 2 separate masternodes to mix funds up to 10000 PIV", Q_NULLPTR));
-        label_3->setText(QApplication::translate("ObfuscationConfig", "Use 8 separate masternodes to mix funds up to 10000 PIV", Q_NULLPTR));
+        label_2->setText(QApplication::translate("ObfuscationConfig", "Use 2 separate masternodes to mix funds up to 10000 LABX", Q_NULLPTR));
+        label_3->setText(QApplication::translate("ObfuscationConfig", "Use 8 separate masternodes to mix funds up to 10000 LABX", Q_NULLPTR));
         label_4->setText(QApplication::translate("ObfuscationConfig", "Use 16 separate masternodes", Q_NULLPTR));
-        label_6->setText(QApplication::translate("ObfuscationConfig", "This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV", Q_NULLPTR));
-        label_7->setText(QApplication::translate("ObfuscationConfig", "This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV", Q_NULLPTR));
+        label_6->setText(QApplication::translate("ObfuscationConfig", "This option is the quickest and will cost about ~0.025 LABX to anonymize 10000 LABX", Q_NULLPTR));
+        label_7->setText(QApplication::translate("ObfuscationConfig", "This option is moderately fast and will cost about 0.05 LABX to anonymize 10000 LABX", Q_NULLPTR));
         label_8->setText(QApplication::translate("ObfuscationConfig", "This is the slowest and most secure option. Using maximum anonymity will cost", Q_NULLPTR));
-        label_9->setText(QApplication::translate("ObfuscationConfig", "0.1 PIV per 10000 PIV you anonymize.", Q_NULLPTR));
+        label_9->setText(QApplication::translate("ObfuscationConfig", "0.1 LABX per 10000 LABX you anonymize.", Q_NULLPTR));
     } // retranslateUi
 
 };

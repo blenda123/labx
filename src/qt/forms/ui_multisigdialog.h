@@ -668,7 +668,7 @@ public:
         addInputButton->setText(QApplication::translate("MultisigDialog", "Add a Raw Input", Q_NULLPTR));
         addDestinationLabel->setText(QApplication::translate("MultisigDialog", "Address / Amount:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        addDestinationButton->setToolTip(QApplication::translate("MultisigDialog", "Add destinations to send PIV to", Q_NULLPTR));
+        addDestinationButton->setToolTip(QApplication::translate("MultisigDialog", "Add destinations to send LABX to", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         addDestinationButton->setText(QApplication::translate("MultisigDialog", "Add &Destination", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP

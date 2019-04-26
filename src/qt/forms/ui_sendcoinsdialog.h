@@ -164,7 +164,7 @@ public:
     QPushButton *addButton;
     QSpacerItem *horizontalSpacer;
     QHBoxLayout *horizontalLayout_2;
-    QCheckBox *checkzPIV;
+    QCheckBox *checkzLABX;
     QLabel *label;
     QLabel *labelBalance;
     QButtonGroup *groupCustomFee;
@@ -998,11 +998,11 @@ public:
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setSpacing(3);
         horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
-        checkzPIV = new QCheckBox(frame_Send);
-        checkzPIV->setObjectName(QStringLiteral("checkzPIV"));
-        checkzPIV->setEnabled(false);
+        checkzLABX = new QCheckBox(frame_Send);
+        checkzLABX->setObjectName(QStringLiteral("checkzLABX"));
+        checkzLABX->setEnabled(false);
 
-        horizontalLayout_2->addWidget(checkzPIV);
+        horizontalLayout_2->addWidget(checkzLABX);
 
         label = new QLabel(frame_Send);
         label->setObjectName(QStringLiteral("label"));
@@ -1017,7 +1017,7 @@ public:
         sizePolicy5.setHeightForWidth(labelBalance->sizePolicy().hasHeightForWidth());
         labelBalance->setSizePolicy(sizePolicy5);
         labelBalance->setCursor(QCursor(Qt::IBeamCursor));
-        labelBalance->setText(QStringLiteral("123.456 PIV"));
+        labelBalance->setText(QStringLiteral("123.456 LABX"));
         labelBalance->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
         horizontalLayout_2->addWidget(labelBalance);
@@ -1071,9 +1071,9 @@ public:
         splitBlockCheckBox->setText(QApplication::translate("SendCoinsDialog", "Split UTXO", Q_NULLPTR));
         splitBlockLineEdit->setPlaceholderText(QApplication::translate("SendCoinsDialog", "# of outputs", Q_NULLPTR));
         labelBlockSizeText->setText(QApplication::translate("SendCoinsDialog", "UTXO Size:", Q_NULLPTR));
-        labelBlockSize->setText(QApplication::translate("SendCoinsDialog", "0 PIV", Q_NULLPTR));
+        labelBlockSize->setText(QApplication::translate("SendCoinsDialog", "0 LABX", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        checkSwiftTX->setToolTip(QApplication::translate("SendCoinsDialog", "SwiftX technology allows for near instant transactions - A flat fee of 0.01 PIV applies", Q_NULLPTR));
+        checkSwiftTX->setToolTip(QApplication::translate("SendCoinsDialog", "SwiftX technology allows for near instant transactions - A flat fee of 0.01 LABX applies", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         checkSwiftTX->setText(QApplication::translate("SendCoinsDialog", "SwiftX", Q_NULLPTR));
         labelSmartFee3->setText(QApplication::translate("SendCoinsDialog", "Confirmation time:", Q_NULLPTR));
@@ -1091,11 +1091,11 @@ public:
         radioCustomFee->setText(QString());
         labelCustomFee->setText(QApplication::translate("SendCoinsDialog", "Custom:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        radioCustomPerKilobyte->setToolTip(QApplication::translate("SendCoinsDialog", "If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then \"per kilobyte\" only pays 250 uPIVs in fee,<br />while \"at least\" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.", Q_NULLPTR));
+        radioCustomPerKilobyte->setToolTip(QApplication::translate("SendCoinsDialog", "If the custom fee is set to 1000 uLABXs and the transaction is only 250 bytes, then \"per kilobyte\" only pays 250 uLABXs in fee,<br />while \"at least\" pays 1000 uLABXs. For transactions bigger than a kilobyte both pay by kilobyte.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         radioCustomPerKilobyte->setText(QApplication::translate("SendCoinsDialog", "per kilobyte", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        radioCustomAtLeast->setToolTip(QApplication::translate("SendCoinsDialog", "If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then \"per kilobyte\" only pays 250 uPIVs in fee,<br />while \"total at least\" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.", Q_NULLPTR));
+        radioCustomAtLeast->setToolTip(QApplication::translate("SendCoinsDialog", "If the custom fee is set to 1000 uLABXs and the transaction is only 250 bytes, then \"per kilobyte\" only pays 250 uLABXs in fee,<br />while \"total at least\" pays 1000 uLABXs. For transactions bigger than a kilobyte both pay by kilobyte.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         radioCustomAtLeast->setText(QApplication::translate("SendCoinsDialog", "total at least", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
@@ -1123,7 +1123,7 @@ public:
         addButton->setToolTip(QApplication::translate("SendCoinsDialog", "Send to multiple recipients at once", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         addButton->setText(QApplication::translate("SendCoinsDialog", "Add &Recipient", Q_NULLPTR));
-        checkzPIV->setText(QApplication::translate("SendCoinsDialog", "Anonymized PIV", Q_NULLPTR));
+        checkzLABX->setText(QApplication::translate("SendCoinsDialog", "Anonymized LABX", Q_NULLPTR));
         label->setText(QApplication::translate("SendCoinsDialog", "Balance:", Q_NULLPTR));
     } // retranslateUi
 

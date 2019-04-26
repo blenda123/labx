@@ -53,8 +53,8 @@ public:
     QVBoxLayout *verticalLayout_2;
     QVBoxLayout *verticalLayout_3;
     QHBoxLayout *horizontalLayout_3;
-    QLabel *labelzPIVActions;
-    QLabel *labelzPIVSyncStatus;
+    QLabel *labelzLABXActions;
+    QLabel *labelzLABXSyncStatus;
     QSpacerItem *horizontalSpacer;
     QFrame *lineUpperLeft;
     QFrame *balanceSupplyFrame;
@@ -69,11 +69,11 @@ public:
     QSpacerItem *horizontalSpacer_31;
     QPushButton *pushButtonShowDenoms;
     QHBoxLayout *horizontalLayout_4;
-    QPushButton *pushButtonMintzPIV;
+    QPushButton *pushButtonMintzLABX;
     QLineEdit *labelMintAmountValue;
-    QLabel *labelzPIV_2;
-    QLabel *labelzPIVAmountText;
-    QLabel *labelzPIVAmountValue;
+    QLabel *labelzLABX_2;
+    QLabel *labelzLABXAmountText;
+    QLabel *labelzLABXAmountValue;
     QSpacerItem *horizontalSpacer_2;
     QPushButton *pushButtonSpentReset;
     QHBoxLayout *horizontalLayout_5;
@@ -98,8 +98,8 @@ public:
     QLabel *labelQuantitySelected_int;
     QSpacerItem *horizontalSpacer_19;
     QHBoxLayout *horizontalLayout_6;
-    QPushButton *pushButtonSpendzPIV;
-    QLabel *labelzPIVBalanceText;
+    QPushButton *pushButtonSpendzLABX;
+    QLabel *labelzLABXBalanceText;
     QLabel *labelzAvailableAmount_2;
     QSpacerItem *horizontalSpacer_4;
     QGridLayout *gridLayout_7;
@@ -112,8 +112,8 @@ public:
     QLineEdit *addAsLabel;
     QLabel *amountLabel;
     QHBoxLayout *horizontalLayout_9;
-    QLineEdit *zPIVpayAmount;
-    QLabel *labelzPIV;
+    QLineEdit *zLABXpayAmount;
+    QLabel *labelzLABX;
     QHBoxLayout *horizontalLayout_10;
     QSpacerItem *horizontalSpacer_5;
     QCheckBox *checkBoxMintChange;
@@ -124,7 +124,7 @@ public:
     QVBoxLayout *verticalLayout_9;
     QVBoxLayout *verticalLayout_Right;
     QHBoxLayout *horizontalLayout_21;
-    QLabel *labelzPIVStats;
+    QLabel *labelzLABXStats;
     QSpacerItem *horizontalSpacer_16;
     QFrame *line_1_right;
     QSpacerItem *verticalSpacer;
@@ -334,24 +334,24 @@ public:
         verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
         horizontalLayout_3 = new QHBoxLayout();
         horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
-        labelzPIVActions = new QLabel(verticalFrameLeft);
-        labelzPIVActions->setObjectName(QStringLiteral("labelzPIVActions"));
+        labelzLABXActions = new QLabel(verticalFrameLeft);
+        labelzLABXActions->setObjectName(QStringLiteral("labelzLABXActions"));
         QFont font2;
         font2.setPointSize(12);
         font2.setBold(true);
         font2.setWeight(75);
-        labelzPIVActions->setFont(font2);
-        labelzPIVActions->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+        labelzLABXActions->setFont(font2);
+        labelzLABXActions->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
 
-        horizontalLayout_3->addWidget(labelzPIVActions);
+        horizontalLayout_3->addWidget(labelzLABXActions);
 
-        labelzPIVSyncStatus = new QLabel(verticalFrameLeft);
-        labelzPIVSyncStatus->setObjectName(QStringLiteral("labelzPIVSyncStatus"));
-        labelzPIVSyncStatus->setStyleSheet(QStringLiteral("QLabel { color: red; }"));
-        labelzPIVSyncStatus->setText(QStringLiteral("(out of sync)"));
-        labelzPIVSyncStatus->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+        labelzLABXSyncStatus = new QLabel(verticalFrameLeft);
+        labelzLABXSyncStatus->setObjectName(QStringLiteral("labelzLABXSyncStatus"));
+        labelzLABXSyncStatus->setStyleSheet(QStringLiteral("QLabel { color: red; }"));
+        labelzLABXSyncStatus->setText(QStringLiteral("(out of sync)"));
+        labelzLABXSyncStatus->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
 
-        horizontalLayout_3->addWidget(labelzPIVSyncStatus);
+        horizontalLayout_3->addWidget(labelzLABXSyncStatus);
 
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -434,11 +434,11 @@ public:
 
         horizontalLayout_4 = new QHBoxLayout();
         horizontalLayout_4->setObjectName(QStringLiteral("horizontalLayout_4"));
-        pushButtonMintzPIV = new QPushButton(verticalFrameLeft);
-        pushButtonMintzPIV->setObjectName(QStringLiteral("pushButtonMintzPIV"));
-        pushButtonMintzPIV->setMinimumSize(QSize(131, 0));
+        pushButtonMintzLABX = new QPushButton(verticalFrameLeft);
+        pushButtonMintzLABX->setObjectName(QStringLiteral("pushButtonMintzLABX"));
+        pushButtonMintzLABX->setMinimumSize(QSize(131, 0));
 
-        horizontalLayout_4->addWidget(pushButtonMintzPIV);
+        horizontalLayout_4->addWidget(pushButtonMintzLABX);
 
         labelMintAmountValue = new QLineEdit(verticalFrameLeft);
         labelMintAmountValue->setObjectName(QStringLiteral("labelMintAmountValue"));
@@ -447,23 +447,23 @@ public:
 
         horizontalLayout_4->addWidget(labelMintAmountValue);
 
-        labelzPIV_2 = new QLabel(verticalFrameLeft);
-        labelzPIV_2->setObjectName(QStringLiteral("labelzPIV_2"));
+        labelzLABX_2 = new QLabel(verticalFrameLeft);
+        labelzLABX_2->setObjectName(QStringLiteral("labelzLABX_2"));
 
-        horizontalLayout_4->addWidget(labelzPIV_2);
+        horizontalLayout_4->addWidget(labelzLABX_2);
 
-        labelzPIVAmountText = new QLabel(verticalFrameLeft);
-        labelzPIVAmountText->setObjectName(QStringLiteral("labelzPIVAmountText"));
-        labelzPIVAmountText->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        labelzLABXAmountText = new QLabel(verticalFrameLeft);
+        labelzLABXAmountText->setObjectName(QStringLiteral("labelzLABXAmountText"));
+        labelzLABXAmountText->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
-        horizontalLayout_4->addWidget(labelzPIVAmountText);
+        horizontalLayout_4->addWidget(labelzLABXAmountText);
 
-        labelzPIVAmountValue = new QLabel(verticalFrameLeft);
-        labelzPIVAmountValue->setObjectName(QStringLiteral("labelzPIVAmountValue"));
-        labelzPIVAmountValue->setFont(font3);
-        labelzPIVAmountValue->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+        labelzLABXAmountValue = new QLabel(verticalFrameLeft);
+        labelzLABXAmountValue->setObjectName(QStringLiteral("labelzLABXAmountValue"));
+        labelzLABXAmountValue->setFont(font3);
+        labelzLABXAmountValue->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
 
-        horizontalLayout_4->addWidget(labelzPIVAmountValue);
+        horizontalLayout_4->addWidget(labelzLABXAmountValue);
 
         horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -535,7 +535,7 @@ public:
         labelCoinControlAmount->setEnabled(true);
         labelCoinControlAmount->setCursor(QCursor(Qt::IBeamCursor));
         labelCoinControlAmount->setContextMenuPolicy(Qt::ActionsContextMenu);
-        labelCoinControlAmount->setText(QStringLiteral("0.00 PIV"));
+        labelCoinControlAmount->setText(QStringLiteral("0.00 LABX"));
         labelCoinControlAmount->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
         verticalLayout_6->addWidget(labelCoinControlAmount);
@@ -627,17 +627,17 @@ public:
 
         horizontalLayout_6 = new QHBoxLayout();
         horizontalLayout_6->setObjectName(QStringLiteral("horizontalLayout_6"));
-        pushButtonSpendzPIV = new QPushButton(verticalFrameLeft);
-        pushButtonSpendzPIV->setObjectName(QStringLiteral("pushButtonSpendzPIV"));
-        pushButtonSpendzPIV->setMinimumSize(QSize(131, 0));
+        pushButtonSpendzLABX = new QPushButton(verticalFrameLeft);
+        pushButtonSpendzLABX->setObjectName(QStringLiteral("pushButtonSpendzLABX"));
+        pushButtonSpendzLABX->setMinimumSize(QSize(131, 0));
 
-        horizontalLayout_6->addWidget(pushButtonSpendzPIV);
+        horizontalLayout_6->addWidget(pushButtonSpendzLABX);
 
-        labelzPIVBalanceText = new QLabel(verticalFrameLeft);
-        labelzPIVBalanceText->setObjectName(QStringLiteral("labelzPIVBalanceText"));
-        labelzPIVBalanceText->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        labelzLABXBalanceText = new QLabel(verticalFrameLeft);
+        labelzLABXBalanceText->setObjectName(QStringLiteral("labelzLABXBalanceText"));
+        labelzLABXBalanceText->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
-        horizontalLayout_6->addWidget(labelzPIVBalanceText);
+        horizontalLayout_6->addWidget(labelzLABXBalanceText);
 
         labelzAvailableAmount_2 = new QLabel(verticalFrameLeft);
         labelzAvailableAmount_2->setObjectName(QStringLiteral("labelzAvailableAmount_2"));
@@ -714,17 +714,17 @@ public:
         horizontalLayout_9 = new QHBoxLayout();
         horizontalLayout_9->setSpacing(0);
         horizontalLayout_9->setObjectName(QStringLiteral("horizontalLayout_9"));
-        zPIVpayAmount = new QLineEdit(verticalFrameLeft);
-        zPIVpayAmount->setObjectName(QStringLiteral("zPIVpayAmount"));
+        zLABXpayAmount = new QLineEdit(verticalFrameLeft);
+        zLABXpayAmount->setObjectName(QStringLiteral("zLABXpayAmount"));
 
-        horizontalLayout_9->addWidget(zPIVpayAmount);
+        horizontalLayout_9->addWidget(zLABXpayAmount);
 
-        labelzPIV = new QLabel(verticalFrameLeft);
-        labelzPIV->setObjectName(QStringLiteral("labelzPIV"));
-        labelzPIV->setMinimumSize(QSize(55, 0));
-        labelzPIV->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
+        labelzLABX = new QLabel(verticalFrameLeft);
+        labelzLABX->setObjectName(QStringLiteral("labelzLABX"));
+        labelzLABX->setMinimumSize(QSize(55, 0));
+        labelzLABX->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
-        horizontalLayout_9->addWidget(labelzPIV);
+        horizontalLayout_9->addWidget(labelzLABX);
 
 
         gridLayout_7->addLayout(horizontalLayout_9, 2, 1, 1, 1);
@@ -780,12 +780,12 @@ public:
         verticalLayout_Right->setObjectName(QStringLiteral("verticalLayout_Right"));
         horizontalLayout_21 = new QHBoxLayout();
         horizontalLayout_21->setObjectName(QStringLiteral("horizontalLayout_21"));
-        labelzPIVStats = new QLabel(verticalFrameRight);
-        labelzPIVStats->setObjectName(QStringLiteral("labelzPIVStats"));
-        labelzPIVStats->setFont(font2);
-        labelzPIVStats->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+        labelzLABXStats = new QLabel(verticalFrameRight);
+        labelzLABXStats->setObjectName(QStringLiteral("labelzLABXStats"));
+        labelzLABXStats->setFont(font2);
+        labelzLABXStats->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
 
-        horizontalLayout_21->addWidget(labelzPIVStats);
+        horizontalLayout_21->addWidget(labelzLABXStats);
 
         horizontalSpacer_16 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -1304,7 +1304,7 @@ public:
         labelCoinControlAfterFee->setMaximumSize(QSize(111, 12));
         labelCoinControlAfterFee->setCursor(QCursor(Qt::IBeamCursor));
         labelCoinControlAfterFee->setContextMenuPolicy(Qt::ActionsContextMenu);
-        labelCoinControlAfterFee->setText(QString::fromUtf8("0.000\342\200\211000\342\200\21100 PIV"));
+        labelCoinControlAfterFee->setText(QString::fromUtf8("0.000\342\200\211000\342\200\21100 LABX"));
         labelCoinControlAfterFee->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
         dummyHideLayout->addWidget(labelCoinControlAfterFee);
@@ -1344,7 +1344,7 @@ public:
         labelCoinControlFee->setEnabled(false);
         labelCoinControlFee->setCursor(QCursor(Qt::IBeamCursor));
         labelCoinControlFee->setContextMenuPolicy(Qt::ActionsContextMenu);
-        labelCoinControlFee->setText(QStringLiteral("0.00 PIV"));
+        labelCoinControlFee->setText(QStringLiteral("0.00 LABX"));
         labelCoinControlFee->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
         formLayoutCoinControl3->setWidget(0, QFormLayout::FieldRole, labelCoinControlFee);
@@ -1441,7 +1441,7 @@ public:
         labelCoinControlChange->setMaximumSize(QSize(111, 16777215));
         labelCoinControlChange->setCursor(QCursor(Qt::IBeamCursor));
         labelCoinControlChange->setContextMenuPolicy(Qt::ActionsContextMenu);
-        labelCoinControlChange->setText(QString::fromUtf8("0.000\342\200\211000\342\200\21100 PIV"));
+        labelCoinControlChange->setText(QString::fromUtf8("0.000\342\200\211000\342\200\21100 LABX"));
         labelCoinControlChange->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
         dummyHideLayout->addWidget(labelCoinControlChange);
@@ -1585,7 +1585,7 @@ public:
 #ifndef QT_NO_SHORTCUT
         payToLabel->setBuddy(payTo);
         labelLabel->setBuddy(addAsLabel);
-        amountLabel->setBuddy(zPIVpayAmount);
+        amountLabel->setBuddy(zLABXpayAmount);
 #endif // QT_NO_SHORTCUT
 
         retranslateUi(PrivacyDialog);
@@ -1597,38 +1597,38 @@ public:
     {
         labelOverviewHeaderLeft->setText(QApplication::translate("PrivacyDialog", "PRIVACY", Q_NULLPTR));
         labelOverviewHeaderRight->setText(QString());
-        labelzPIVActions->setText(QApplication::translate("PrivacyDialog", "Zerocoin Actions:", Q_NULLPTR));
+        labelzLABXActions->setText(QApplication::translate("PrivacyDialog", "Zerocoin Actions:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelzPIVSyncStatus->setToolTip(QApplication::translate("PrivacyDialog", "The displayed information may be out of date. Your wallet automatically synchronizes with the LABX network after a connection is established, but this process has not completed yet.", Q_NULLPTR));
+        labelzLABXSyncStatus->setToolTip(QApplication::translate("PrivacyDialog", "The displayed information may be out of date. Your wallet automatically synchronizes with the LABX network after a connection is established, but this process has not completed yet.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_TOOLTIP
-        labelzAvailableText_3->setToolTip(QApplication::translate("PrivacyDialog", "Total Balance including unconfirmed and immature zPIV", Q_NULLPTR));
+        labelzAvailableText_3->setToolTip(QApplication::translate("PrivacyDialog", "Total Balance including unconfirmed and immature zLABX", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         labelzAvailableText_3->setText(QApplication::translate("PrivacyDialog", "Total Zerocoin  Balance:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelzAvailableAmount_4->setToolTip(QApplication::translate("PrivacyDialog", "Total Balance including unconfirmed and immature zPIV", Q_NULLPTR));
+        labelzAvailableAmount_4->setToolTip(QApplication::translate("PrivacyDialog", "Total Balance including unconfirmed and immature zLABX", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        labelzAvailableAmount_4->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelzAvailableAmount_4->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
         labelZsupplyText_2->setText(QApplication::translate("PrivacyDialog", "Global Supply:", Q_NULLPTR));
-        labelZsupplyAmount_2->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelZsupplyAmount_2->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        pushButtonShowDenoms->setToolTip(QApplication::translate("PrivacyDialog", "Show zPIV denominations list", Q_NULLPTR));
+        pushButtonShowDenoms->setToolTip(QApplication::translate("PrivacyDialog", "Show zLABX denominations list", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         pushButtonShowDenoms->setText(QApplication::translate("PrivacyDialog", "Show Denominations", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        pushButtonMintzPIV->setToolTip(QApplication::translate("PrivacyDialog", "Enter an amount of Piv to convert to zPIV", Q_NULLPTR));
+        pushButtonMintzLABX->setToolTip(QApplication::translate("PrivacyDialog", "Enter an amount of Piv to convert to zLABX", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        pushButtonMintzPIV->setText(QApplication::translate("PrivacyDialog", "Mint Zerocoin", Q_NULLPTR));
+        pushButtonMintzLABX->setText(QApplication::translate("PrivacyDialog", "Mint Zerocoin", Q_NULLPTR));
         labelMintAmountValue->setText(QApplication::translate("PrivacyDialog", "0", Q_NULLPTR));
-        labelzPIV_2->setText(QApplication::translate("PrivacyDialog", "zPIV", Q_NULLPTR));
+        labelzLABX_2->setText(QApplication::translate("PrivacyDialog", "zLABX", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelzPIVAmountText->setToolTip(QApplication::translate("PrivacyDialog", "Available for minting are coins which are confirmed and not locked or Masternode collaterals.", Q_NULLPTR));
+        labelzLABXAmountText->setToolTip(QApplication::translate("PrivacyDialog", "Available for minting are coins which are confirmed and not locked or Masternode collaterals.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        labelzPIVAmountText->setText(QApplication::translate("PrivacyDialog", "Available for Minting:", Q_NULLPTR));
+        labelzLABXAmountText->setText(QApplication::translate("PrivacyDialog", "Available for Minting:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelzPIVAmountValue->setToolTip(QApplication::translate("PrivacyDialog", "Enter an amount of Piv to convert to zPIV", Q_NULLPTR));
+        labelzLABXAmountValue->setToolTip(QApplication::translate("PrivacyDialog", "Enter an amount of Piv to convert to zLABX", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        labelzPIVAmountValue->setText(QApplication::translate("PrivacyDialog", "0.000\342\200\211000\342\200\21100 PIV", Q_NULLPTR));
+        labelzLABXAmountValue->setText(QApplication::translate("PrivacyDialog", "0.000\342\200\211000\342\200\21100 LABX", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         pushButtonSpentReset->setToolTip(QApplication::translate("PrivacyDialog", "Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
@@ -1643,25 +1643,25 @@ public:
 #ifndef QT_NO_TOOLTIP
         TEMintStatus->setToolTip(QApplication::translate("PrivacyDialog", "Status and/or Mesages from the last Mint Action.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        pushButtonZPivControl->setText(QApplication::translate("PrivacyDialog", "zPIV Control", Q_NULLPTR));
-        labelzPivSelected->setText(QApplication::translate("PrivacyDialog", "zPIV Selected:", Q_NULLPTR));
+        pushButtonZPivControl->setText(QApplication::translate("PrivacyDialog", "zLABX Control", Q_NULLPTR));
+        labelzPivSelected->setText(QApplication::translate("PrivacyDialog", "zLABX Selected:", Q_NULLPTR));
         labelzPivSelected_int->setText(QApplication::translate("PrivacyDialog", "0", Q_NULLPTR));
         labelQuantitySelected->setText(QApplication::translate("PrivacyDialog", "Quantity Selected:", Q_NULLPTR));
         labelQuantitySelected_int->setText(QApplication::translate("PrivacyDialog", "0", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        pushButtonSpendzPIV->setToolTip(QApplication::translate("PrivacyDialog", "Spend Zerocoin. Without 'Pay To:' address creates payments to yourself.", Q_NULLPTR));
+        pushButtonSpendzLABX->setToolTip(QApplication::translate("PrivacyDialog", "Spend Zerocoin. Without 'Pay To:' address creates payments to yourself.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        pushButtonSpendzPIV->setText(QApplication::translate("PrivacyDialog", "Spend Zerocoin", Q_NULLPTR));
+        pushButtonSpendzLABX->setText(QApplication::translate("PrivacyDialog", "Spend Zerocoin", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelzPIVBalanceText->setToolTip(QApplication::translate("PrivacyDialog", "Available (mature and spendable) zPIV for spending", Q_NULLPTR));
+        labelzLABXBalanceText->setToolTip(QApplication::translate("PrivacyDialog", "Available (mature and spendable) zLABX for spending", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        labelzPIVBalanceText->setText(QApplication::translate("PrivacyDialog", "Available Balance:", Q_NULLPTR));
+        labelzLABXBalanceText->setText(QApplication::translate("PrivacyDialog", "Available Balance:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelzAvailableAmount_2->setToolTip(QApplication::translate("PrivacyDialog", "Available (mature and spendable) zPIV for spending\n"
+        labelzAvailableAmount_2->setToolTip(QApplication::translate("PrivacyDialog", "Available (mature and spendable) zLABX for spending\n"
 "\n"
-"zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted", Q_NULLPTR));
+"zLABX are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        labelzAvailableAmount_2->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelzAvailableAmount_2->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
         payToLabel->setText(QApplication::translate("PrivacyDialog", "Pay &To:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         payTo->setToolTip(QApplication::translate("PrivacyDialog", "The LABX address to send the payment to. Creates local payment to yourself when empty.", Q_NULLPTR));
@@ -1685,24 +1685,24 @@ public:
         addAsLabel->setToolTip(QApplication::translate("PrivacyDialog", "Enter a label for this address to add it to the list of used addresses", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         amountLabel->setText(QApplication::translate("PrivacyDialog", "A&mount:", Q_NULLPTR));
-        labelzPIV->setText(QApplication::translate("PrivacyDialog", "zPIV", Q_NULLPTR));
+        labelzLABX->setText(QApplication::translate("PrivacyDialog", "zLABX", Q_NULLPTR));
         checkBoxMintChange->setText(QApplication::translate("PrivacyDialog", "Convert Change to Zerocoin (might cost additional fees)", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         checkBoxMinimizeChange->setToolTip(QApplication::translate("PrivacyDialog", "If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         checkBoxMinimizeChange->setText(QApplication::translate("PrivacyDialog", "Minimize Change", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelzPIVStats->setToolTip(QApplication::translate("PrivacyDialog", "Information about the available Zerocoin funds.", Q_NULLPTR));
+        labelzLABXStats->setToolTip(QApplication::translate("PrivacyDialog", "Information about the available Zerocoin funds.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        labelzPIVStats->setText(QApplication::translate("PrivacyDialog", "Zerocoin Stats:", Q_NULLPTR));
+        labelzLABXStats->setText(QApplication::translate("PrivacyDialog", "Zerocoin Stats:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelzAvailableText->setToolTip(QApplication::translate("PrivacyDialog", "Total Balance including unconfirmed and immature zPIV", Q_NULLPTR));
+        labelzAvailableText->setToolTip(QApplication::translate("PrivacyDialog", "Total Balance including unconfirmed and immature zLABX", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         labelzAvailableText->setText(QApplication::translate("PrivacyDialog", "Total Zerocoin  Balance:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelzAvailableAmount->setToolTip(QApplication::translate("PrivacyDialog", "Total Balance including unconfirmed and immature zPIV", Q_NULLPTR));
+        labelzAvailableAmount->setToolTip(QApplication::translate("PrivacyDialog", "Total Balance including unconfirmed and immature zLABX", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        labelzAvailableAmount->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelzAvailableAmount->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         labelzDenom1Text->setToolTip(QApplication::translate("PrivacyDialog", "Denominations with value 1:", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
@@ -1776,36 +1776,36 @@ public:
 #endif // QT_NO_TOOLTIP
         labelzDenom8Amount->setText(QApplication::translate("PrivacyDialog", "0 x", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        label_AutoMintStatus->setToolTip(QApplication::translate("PrivacyDialog", "Show the current status of automatic zPIV minting.\n"
+        label_AutoMintStatus->setToolTip(QApplication::translate("PrivacyDialog", "Show the current status of automatic zLABX minting.\n"
 "\n"
 "To change the status (restart required):\n"
 "- enable: add 'enablezeromint=1' to labx.conf\n"
 "- disable: add 'enablezeromint=0' to labx.conf\n"
 "\n"
 "To change the percentage (no restart required):\n"
-"- menu Settings->Options->Percentage of autominted zPIV\n"
+"- menu Settings->Options->Percentage of autominted zLABX\n"
 "\n"
 "", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         label_AutoMintStatus->setText(QApplication::translate("PrivacyDialog", "AutoMint Status", Q_NULLPTR));
         labelZsupplyText->setText(QApplication::translate("PrivacyDialog", "Global Supply:", Q_NULLPTR));
-        labelZsupplyAmount->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelZsupplyAmount->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
         labelZsupplyText1->setText(QApplication::translate("PrivacyDialog", "Denom. 1:", Q_NULLPTR));
-        labelZsupplyAmount1->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelZsupplyAmount1->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
         labelZsupplyText5->setText(QApplication::translate("PrivacyDialog", "Denom. 5:", Q_NULLPTR));
-        labelZsupplyAmount5->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelZsupplyAmount5->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
         labelZsupplyText10->setText(QApplication::translate("PrivacyDialog", "Denom. 10:", Q_NULLPTR));
-        labelZsupplyAmount10->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelZsupplyAmount10->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
         labelZsupplyText50->setText(QApplication::translate("PrivacyDialog", "Denom. 50:", Q_NULLPTR));
-        labelZsupplyAmount50->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelZsupplyAmount50->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
         labelZsupplyText100->setText(QApplication::translate("PrivacyDialog", "Denom. 100:", Q_NULLPTR));
-        labelZsupplyAmount100->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelZsupplyAmount100->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
         labelZsupplyText500->setText(QApplication::translate("PrivacyDialog", "Denom. 500:", Q_NULLPTR));
-        labelZsupplyAmount500->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelZsupplyAmount500->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
         labelZsupplyText1000->setText(QApplication::translate("PrivacyDialog", "Denom. 1000:", Q_NULLPTR));
-        labelZsupplyAmount1000->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelZsupplyAmount1000->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
         labelZsupplyText5000->setText(QApplication::translate("PrivacyDialog", "Denom. 5000:", Q_NULLPTR));
-        labelZsupplyAmount5000->setText(QApplication::translate("PrivacyDialog", "0 zPIV", Q_NULLPTR));
+        labelZsupplyAmount5000->setText(QApplication::translate("PrivacyDialog", "0 zLABX", Q_NULLPTR));
         pushButtonHideDenoms->setText(QApplication::translate("PrivacyDialog", "Hide Denominations", Q_NULLPTR));
         labelCoinControlPriorityText->setText(QApplication::translate("PrivacyDialog", "Priority:", Q_NULLPTR));
         WarningLabel->setText(QApplication::translate("PrivacyDialog", "TextLabel", Q_NULLPTR));

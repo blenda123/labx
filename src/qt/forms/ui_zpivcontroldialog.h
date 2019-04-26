@@ -6,8 +6,8 @@
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
 
-#ifndef UI_ZPIVCONTROLDIALOG_H
-#define UI_ZPIVCONTROLDIALOG_H
+#ifndef UI_ZLABXCONTROLDIALOG_H
+#define UI_ZLABXCONTROLDIALOG_H
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QAction>
@@ -159,10 +159,10 @@ public:
 
     void retranslateUi(QDialog *ZPivControlDialog)
     {
-        ZPivControlDialog->setWindowTitle(QApplication::translate("ZPivControlDialog", "Select zPIV to Spend", Q_NULLPTR));
+        ZPivControlDialog->setWindowTitle(QApplication::translate("ZPivControlDialog", "Select zLABX to Spend", Q_NULLPTR));
         labelQuantity->setText(QApplication::translate("ZPivControlDialog", "Quantity", Q_NULLPTR));
         labelQuantity_int->setText(QApplication::translate("ZPivControlDialog", "0", Q_NULLPTR));
-        labelZPiv->setText(QApplication::translate("ZPivControlDialog", "zPIV", Q_NULLPTR));
+        labelZPiv->setText(QApplication::translate("ZPivControlDialog", "zLABX", Q_NULLPTR));
         labelZPiv_int->setText(QApplication::translate("ZPivControlDialog", "0", Q_NULLPTR));
         pushButtonAll->setText(QApplication::translate("ZPivControlDialog", "Select/Deselect All", Q_NULLPTR));
         QTreeWidgetItem *___qtreewidgetitem = treeWidget->headerItem();
@@ -177,4 +177,4 @@ namespace Ui {
 
 QT_END_NAMESPACE
 
-#endif // UI_ZPIVCONTROLDIALOG_H
+#endif // UI_ZLABXCONTROLDIALOG_H

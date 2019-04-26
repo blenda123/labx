@@ -176,15 +176,15 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>LABX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>LABX şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, PIV'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>LABX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LABXs from being stolen by malware infecting your computer.</source>
+        <translation>LABX şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, LABX'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LABX&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -433,8 +433,8 @@
         <translation>İşlem geçmişini ara</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Gizlilik Aksiyonları zPIV</translation>
+        <source>Privacy Actions for zLABX</source>
+        <translation>Gizlilik Aksiyonları zLABX</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1653,8 +1653,8 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Address /miktar:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>PIV göndermek için varış yerleri ekleyin</translation>
+        <source>Add destinations to send LABX to</source>
+        <translation>LABX göndermek için varış yerleri ekleyin</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1752,32 +1752,32 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Lütfen bir gizlilik düzeyi seçin.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>10000 PIV'e kadar fonları karıştırmak için 2 ayrı matternod kullanın</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 LABX</source>
+        <translation>10000 LABX'e kadar fonları karıştırmak için 2 ayrı matternod kullanın</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>10000 PIV'ye kadar olan fonları karıştırmak için 8 ayrı matternod kullanın</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 LABX</source>
+        <translation>10000 LABX'ye kadar olan fonları karıştırmak için 8 ayrı matternod kullanın</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16 ayrı matternod kullan</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Bu seçenek en hızlıdır ve 10000 PIV'yi anonimleştirmek için ~ 0.025 PIV'lik bir maliyeti olacaktır</translation>
+        <source>This option is the quickest and will cost about ~0.025 LABX to anonymize 10000 LABX</source>
+        <translation>Bu seçenek en hızlıdır ve 10000 LABX'yi anonimleştirmek için ~ 0.025 LABX'lik bir maliyeti olacaktır</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Bu seçenek orta derecede hızlıdır ve 10000 PIV'yi anonimleştirmek için yaklaşık 0.05 PIV'e mal olur</translation>
+        <source>This option is moderately fast and will cost about 0.05 LABX to anonymize 10000 LABX</source>
+        <translation>Bu seçenek orta derecede hızlıdır ve 10000 LABX'yi anonimleştirmek için yaklaşık 0.05 LABX'e mal olur</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Bu en yavaş ve en güvenli seçenektir. Maksimum anonimlik kullanmak maliyete gelecek</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV her 10000 PIV anonimleştirmeye.</translation>
+        <source>0.1 LABX per 10000 LABX you anonymize.</source>
+        <translation>0.1 LABX her 10000 LABX anonimleştirmeye.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1920,28 +1920,28 @@ https://www.transifex.com/labx-project/labx-project-translations</translation>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>PIV birimlerinin zPIV'e otomatik basımını ektinleştir</translation>
+        <source>Enable automatic minting of LABX units to zLABX</source>
+        <translation>LABX birimlerinin zLABX'e otomatik basımını ektinleştir</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>zPIV Otomatik basımı etkinleştir</translation>
+        <source>Enable zLABX Automint</source>
+        <translation>zLABX Otomatik basımı etkinleştir</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Zerocoin Protokolü üzerinden otomatik olarak zPIV'ye dönüştürülen gelen PIV yüzdesi (dakika: 10%)</translation>
+        <source>Percentage of incoming LABX which get automatically converted to zLABX via Zerocoin Protocol (min: 10%)</source>
+        <translation>Zerocoin Protokolü üzerinden otomatik olarak zLABX'ye dönüştürülen gelen LABX yüzdesi (dakika: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Otomatikleştirilmiş zPIV yüzdesi</translation>
+        <source>Percentage of autominted zLABX</source>
+        <translation>Otomatikleştirilmiş zLABX yüzdesi</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Bu mezhebi için yeterli PIV bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough LABX for this denomination is available</source>
+        <translation>Bu mezhebi için yeterli LABX bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Tercih edilen Automint zPIV Nominal değeri</translation>
+        <source>Preferred Automint zLABX Denomination</source>
+        <translation>Tercih edilen Automint zLABX Nominal değeri</translation>
     </message>
     <message>
         <source>Connect to the LABX network through a SOCKS5 proxy.</source>
@@ -2099,8 +2099,8 @@ https://www.transifex.com/labx-project/labx-project-translations</translation>
         <translation>Toplam Bakiye, mevcut olmayan tüm paralar dahil.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>PIV Bakiyesi</translation>
+        <source>LABX Balance</source>
+        <translation>LABX Bakiyesi</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2127,14 +2127,14 @@ https://www.transifex.com/labx-project/labx-project-translations</translation>
         <translation>Güncel LABX bakiyeniz, onaylanmamış ve olgunlaşmamış işlemler dahil</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Bakiyesi</translation>
+        <source>zLABX Balance</source>
+        <translation>zLABX Bakiyesi</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zLABX are spendable.</source>
         <translation>Olgun: basılmış olduktan sonra 20'den fazla onay alınmış ve aynı ölçü biriminden 1 kereden fazla basılmış.
-Bu zPIV ler harcanabilir.</translation>
+Bu zLABX ler harcanabilir.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2187,8 +2187,8 @@ Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden
         <translation>Harcanabilir:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Kilitli PIV veya Masternode teminatları. Bunlar zPIV matlaştırmadan çıkarılır.</translation>
+        <source>Locked LABX or Masternode collaterals. These are excluded from zLABX minting.</source>
+        <translation>Kilitli LABX veya Masternode teminatları. Bunlar zLABX matlaştırmadan çıkarılır.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2199,8 +2199,8 @@ Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden
         <translation>onaylanmamış:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Güncel zPIV bakiyeniz, onaylanmamış ve olgunlaşmamış zPIV'ler dahil.</translation>
+        <source>Your current zLABX balance, unconfirmed and immature zLABX included.</source>
+        <translation>Güncel zLABX bakiyeniz, onaylanmamış ve olgunlaşmamış zLABX'ler dahil.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2211,10 +2211,10 @@ Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden
         <translation>senkronizasyon dışı</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zLABX.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Mevcut zPIV yüzdesi.
+        <translation>Mevcut zLABX yüzdesi.
 AutoMint etkinleştirilirse, bu yüzde, yapılandırılmış AutoMint yüzdesi etrafında düzelir (varsayılan = 10%).
 </translation>
     </message>
@@ -2358,8 +2358,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in labx.conf<
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zLABX</source>
+        <translation>zLABX</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2370,8 +2370,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in labx.conf<
         <translation>Mintinge hazır</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 LABX</source>
+        <translation>0.000 000 00 LABX</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2410,15 +2410,15 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in labx.conf<
         <translation>GİZLİLİK</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPIV</source>
+        <source>Enter an amount of Piv to convert to zLABX</source>
         <translation>ZPiv'e dönüştürmek için bir miktar Piv girin</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>zPIV Kontrolü</translation>
+        <source>zLABX Control</source>
+        <translation>zLABX Kontrolü</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
+        <source>zLABX Selected:</source>
         <translation>zPiv Seçildi:</translation>
     </message>
     <message>
@@ -2434,24 +2434,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in labx.conf<
         <translation>Harca Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zPIV</translation>
+        <source>Available (mature and spendable) zLABX for spending</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zLABX</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Kullanılabilir Bakiye:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zLABX for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zPIV
+zLABX are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zLABX
 
-zPIV, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
+zLABX, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zLABX</source>
+        <translation>0 zLABX</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2510,8 +2510,8 @@ zPIV, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhep
         <translation>Zerocoin durumu:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Doğrulanmamış ve olgunlaşmamış zPIV dahil toplam bakiye</translation>
+        <source>Total Balance including unconfirmed and immature zLABX</source>
+        <translation>Doğrulanmamış ve olgunlaşmamış zLABX dahil toplam bakiye</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2684,12 +2684,12 @@ Maximum allowed: </source>
 Maksimum bırakılan: </translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV bakım nedeniyle şu an kullanıma kapalı.</translation>
+        <source>zLABX is currently disabled due to maintenance.</source>
+        <translation>zLABX bakım nedeniyle şu an kullanıma kapalı.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV halen bakım alıyor.</translation>
+        <source>zLABX is currently undergoing maintenance.</source>
+        <translation>zLABX halen bakım alıyor.</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2712,8 +2712,8 @@ Maksimum bırakılan: </translation>
         <translation>Başarılı şekilde mint edildi</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation> zPIV in </translation>
+        <source> zLABX in </source>
+        <translation> zLABX in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -3470,8 +3470,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>UTXO Boyutu:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 LABX</source>
+        <translation>0 LABX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3526,12 +3526,12 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Koinler otomatik seçildi</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Özel ücret 1000 uPIV olarak ayarlanmış ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uPIV öder,&lt;br /&gt;"en az" ise 1000 uPIV öder. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
+        <source>If the custom fee is set to 1000 uLABXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLABXs in fee,&lt;br /&gt;while "at least" pays 1000 uLABXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Özel ücret 1000 uLABX olarak ayarlanmış ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uLABX öder,&lt;br /&gt;"en az" ise 1000 uLABX öder. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Özel ücret 1000 uPIV olarak ayarlanırsa ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uPIV ücreti verilir,&lt;br /&gt;"toplam en az" ise 1000 uPIV ödüyor. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
+        <source>If the custom fee is set to 1000 uLABXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLABXs in fee,&lt;br /&gt;while "total at least" pays 1000 uLABXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Özel ücret 1000 uLABX olarak ayarlanırsa ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uLABX ücreti verilir,&lt;br /&gt;"toplam en az" ise 1000 uLABX ödüyor. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for LABX transactions than the network can process.</source>
@@ -3582,8 +3582,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Alıcı ekle</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>anonim edilmiş PIV</translation>
+        <source>Anonymized LABX</source>
+        <translation>anonim edilmiş LABX</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4478,8 +4478,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Koinleri göder</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 PIV ile sınırlıdır.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 LABX.</source>
+        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 LABX ile sınırlıdır.</translation>
     </message>
 </context>
 <context>
@@ -4516,8 +4516,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zLABX</source>
+        <translation>zLABX</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4603,12 +4603,12 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>En iyi blok değiştirildiğinde komutu yürütün (cmd'deki %s yerine blok karması verilir)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (PIV / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in LABX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (LABX / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (PIV / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in LABX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (LABX / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

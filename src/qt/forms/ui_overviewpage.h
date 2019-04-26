@@ -62,7 +62,7 @@ public:
     QVBoxLayout *verticalLayout_4;
     QHBoxLayout *horizontalLayout_4;
     QLabel *label_5;
-    QLabel *labelPIVPercent;
+    QLabel *labelLABXPercent;
     QSpacerItem *horizontalSpacer_3;
     QFrame *line_Balance;
     QGridLayout *gridLayout;
@@ -89,7 +89,7 @@ public:
     QVBoxLayout *verticalLayout_7;
     QHBoxLayout *horizontalLayout_8;
     QLabel *label_5z_3;
-    QLabel *labelzPIVPercent;
+    QLabel *labelzLABXPercent;
     QSpacerItem *horizontalSpacer_11;
     QFrame *line_ZerocoinBalance;
     QGridLayout *gridLayout_5;
@@ -308,11 +308,11 @@ public:
 
         horizontalLayout_4->addWidget(label_5);
 
-        labelPIVPercent = new QLabel(frame_Balances);
-        labelPIVPercent->setObjectName(QStringLiteral("labelPIVPercent"));
-        labelPIVPercent->setText(QStringLiteral("0 %"));
+        labelLABXPercent = new QLabel(frame_Balances);
+        labelLABXPercent->setObjectName(QStringLiteral("labelLABXPercent"));
+//        labelLABXPercent->setText(QStringLiteral("0 %"));
 
-        horizontalLayout_4->addWidget(labelPIVPercent);
+        horizontalLayout_4->addWidget(labelLABXPercent);
 
         horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -499,11 +499,11 @@ public:
 
         horizontalLayout_8->addWidget(label_5z_3);
 
-        labelzPIVPercent = new QLabel(frame_ZerocoinBalances);
-        labelzPIVPercent->setObjectName(QStringLiteral("labelzPIVPercent"));
-        labelzPIVPercent->setText(QStringLiteral("0 %"));
+        labelzLABXPercent = new QLabel(frame_ZerocoinBalances);
+        labelzLABXPercent->setObjectName(QStringLiteral("labelzLABXPercent"));
+//        labelzLABXPercent->setText(QStringLiteral("0 %"));
 
-        horizontalLayout_8->addWidget(labelzPIVPercent);
+//        horizontalLayout_8->addWidget(labelzLABXPercent);
 
         horizontalSpacer_11 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -513,13 +513,13 @@ public:
         verticalLayout_7->addLayout(horizontalLayout_8);
 
         line_ZerocoinBalance = new QFrame(frame_ZerocoinBalances);
-        line_ZerocoinBalance->setObjectName(QStringLiteral("line_ZerocoinBalance"));
-        line_ZerocoinBalance->setMinimumSize(QSize(0, 1));
-        line_ZerocoinBalance->setMaximumSize(QSize(16777215, 1));
-        line_ZerocoinBalance->setFrameShape(QFrame::HLine);
-        line_ZerocoinBalance->setFrameShadow(QFrame::Sunken);
+//        line_ZerocoinBalance->setObjectName(QStringLiteral("line_ZerocoinBalance"));
+//        line_ZerocoinBalance->setMinimumSize(QSize(0, 1));
+//        line_ZerocoinBalance->setMaximumSize(QSize(16777215, 1));
+//        line_ZerocoinBalance->setFrameShape(QFrame::HLine);
+//        line_ZerocoinBalance->setFrameShadow(QFrame::Sunken);
 
-        verticalLayout_7->addWidget(line_ZerocoinBalance);
+//        verticalLayout_7->addWidget(line_ZerocoinBalance);
 
         gridLayout_5 = new QGridLayout();
         gridLayout_5->setSpacing(12);
@@ -532,7 +532,7 @@ public:
         labelzBalanceMature = new QLabel(frame_ZerocoinBalances);
         labelzBalanceMature->setObjectName(QStringLiteral("labelzBalanceMature"));
         labelzBalanceMature->setFont(font3);
-        labelzBalanceMature->setText(QString::fromUtf8("0.000\342\200\211000\342\200\21100 LABX"));
+//        labelzBalanceMature->setText(QString::fromUtf8("0.000\342\200\211000\342\200\21100 LABX"));
         labelzBalanceMature->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         gridLayout_5->addWidget(labelzBalanceMature, 1, 1, 1, 1);
@@ -545,7 +545,7 @@ public:
         labelzBalanceUnconfirmed = new QLabel(frame_ZerocoinBalances);
         labelzBalanceUnconfirmed->setObjectName(QStringLiteral("labelzBalanceUnconfirmed"));
         labelzBalanceUnconfirmed->setFont(font3);
-        labelzBalanceUnconfirmed->setText(QString::fromUtf8("0.000\342\200\211000\342\200\21100 PIV"));
+        labelzBalanceUnconfirmed->setText(QString::fromUtf8("0.000\342\200\211000\342\200\21100 LABX"));
         labelzBalanceUnconfirmed->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         gridLayout_5->addWidget(labelzBalanceUnconfirmed, 2, 1, 1, 1);
@@ -558,7 +558,7 @@ public:
         labelzBalanceImmature = new QLabel(frame_ZerocoinBalances);
         labelzBalanceImmature->setObjectName(QStringLiteral("labelzBalanceImmature"));
         labelzBalanceImmature->setFont(font3);
-        labelzBalanceImmature->setText(QString::fromUtf8("0.000\342\200\211000\342\200\21100 PIV"));
+        labelzBalanceImmature->setText(QString::fromUtf8("0.000\342\200\211000\342\200\21100 LABX"));
         labelzBalanceImmature->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         gridLayout_5->addWidget(labelzBalanceImmature, 3, 1, 1, 1);
@@ -572,7 +572,7 @@ public:
         labelzBalance->setObjectName(QStringLiteral("labelzBalance"));
         labelzBalance->setFont(font3);
         labelzBalance->setCursor(QCursor(Qt::IBeamCursor));
-        labelzBalance->setText(QString::fromUtf8("0.000\342\200\211000\342\200\21100 LABX"));
+//        labelzBalance->setText(QString::fromUtf8("0.000\342\200\211000\342\200\21100 LABX"));
         labelzBalance->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         labelzBalance->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
@@ -716,7 +716,7 @@ public:
 #ifndef QT_NO_TOOLTIP
         labelTotalz->setToolTip(QApplication::translate("OverviewPage", "Total Balance, including all unavailable coins.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        label_5->setText(QApplication::translate("OverviewPage", "PIV Balance", Q_NULLPTR));
+        label_5->setText(QApplication::translate("OverviewPage", "LABX Balance", Q_NULLPTR));
         labelSpendable->setText(QApplication::translate("OverviewPage", "Spendable:", Q_NULLPTR));
         labelWatchonly->setText(QApplication::translate("OverviewPage", "Watch-only:", Q_NULLPTR));
         labelBalanceText->setText(QApplication::translate("OverviewPage", "Available:", Q_NULLPTR));
@@ -741,11 +741,11 @@ public:
         labelWatchImmature->setToolTip(QApplication::translate("OverviewPage", "Staked or masternode rewards in watch-only addresses that has not yet matured", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_TOOLTIP
-        labelLockedBalanceText->setToolTip(QApplication::translate("OverviewPage", "Locked LABX or Masternode collaterals. These are excluded from zPIV minting.", Q_NULLPTR));
+        labelLockedBalanceText->setToolTip(QApplication::translate("OverviewPage", "Locked LABX or Masternode collaterals. These are excluded from zLABX minting.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         labelLockedBalanceText->setText(QApplication::translate("OverviewPage", "Locked:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelLockedBalance->setToolTip(QApplication::translate("OverviewPage", "Locked LABX or Masternode collaterals. These are excluded from zPIV minting.", Q_NULLPTR));
+        labelLockedBalance->setToolTip(QApplication::translate("OverviewPage", "Locked LABX or Masternode collaterals. These are excluded from zLABX minting.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_TOOLTIP
         labelWatchLocked->setToolTip(QApplication::translate("OverviewPage", "Current locked balance in watch-only addresses", Q_NULLPTR));
@@ -760,15 +760,15 @@ public:
 #ifndef QT_NO_TOOLTIP
         labelWatchTotal->setToolTip(QApplication::translate("OverviewPage", "Current total balance in watch-only addresses", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        label_5z_3->setText(QApplication::translate("OverviewPage", "zPIV Balance", Q_NULLPTR));
+//        label_5z_3->setText(QApplication::translate("OverviewPage", "zLABX Balance", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         labelzBalanceMatureText->setToolTip(QApplication::translate("OverviewPage", "Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.\n"
-"These zPIV are spendable.", Q_NULLPTR));
+"These zLABX are spendable.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         labelzBalanceMatureText->setText(QApplication::translate("OverviewPage", "Available:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         labelzBalanceMature->setToolTip(QApplication::translate("OverviewPage", "Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.\n"
-"These zPIV are spendable.", Q_NULLPTR));
+"These zLABX are spendable.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_TOOLTIP
         labelzBalanceUnconfirmedText->setToolTip(QApplication::translate("OverviewPage", "Unconfirmed: less than 20 confirmations\n"
@@ -789,11 +789,11 @@ public:
 "Immature: confirmed, but less than 1 mint of the same denomination after it was minted", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_TOOLTIP
-        labelzBalanceText->setToolTip(QApplication::translate("OverviewPage", "Your current zPIV balance, unconfirmed and immature zPIV included.", Q_NULLPTR));
+        labelzBalanceText->setToolTip(QApplication::translate("OverviewPage", "Your current zLABX balance, unconfirmed and immature zLABX included.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        labelzBalanceText->setText(QApplication::translate("OverviewPage", "Total:", Q_NULLPTR));
+//        labelzBalanceText->setText(QApplication::translate("OverviewPage", "Total:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelzBalance->setToolTip(QApplication::translate("OverviewPage", "Your current zPIV balance, unconfirmed and immature zPIV included.", Q_NULLPTR));
+        labelzBalance->setToolTip(QApplication::translate("OverviewPage", "Your current zLABX balance, unconfirmed and immature zLABX included.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         label_4->setText(QApplication::translate("OverviewPage", "Recent transactions", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP

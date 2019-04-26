@@ -41,9 +41,9 @@ The minimum supported version of MacOS (OSX) has been moved from 10.8 Mountain L
 Bug Fixes
 ------
 
-### GUI crash when recalculating zPIV data
+### GUI crash when recalculating zLABX data
 
-A GUI only crash when recalculating zPIV data (mints/spends/supply) has been fixed. Clients syncing via the network from a point prior to any recalculations can now do so without error again.
+A GUI only crash when recalculating zLABX data (mints/spends/supply) has been fixed. Clients syncing via the network from a point prior to any recalculations can now do so without error again.
 
 ### macOS installer mounting
 
@@ -53,9 +53,9 @@ The macOS installer image (`.dmg` file) had an issue with it's stylesheet that c
 
 A GUI wallet stylesheet issue was causing "pink pinstripes" to display in many of the wallet's views, this has now been resolved.
 
-### Incorrect seed warning in zPIV control dialog
+### Incorrect seed warning in zLABX control dialog
 
-Because of the way the zPIV master seed is handled, locked wallets were showing a status message in the zPIV control dialog window which mentioned that the master seed was not the same used to mint the denom. This message was not entirely correct, and a more appropriate message is now displayed for locked wallets.
+Because of the way the zLABX master seed is handled, locked wallets were showing a status message in the zLABX control dialog window which mentioned that the master seed was not the same used to mint the denom. This message was not entirely correct, and a more appropriate message is now displayed for locked wallets.
 
 ### Invalid chain state on shutdown
 
@@ -82,7 +82,7 @@ Detailed release notes follow. This overview includes changes that affect behavi
 
 ### GUI
  - #860 `2cefebd1f7` [Qt] Prevent double deletion of progress dialog (Fuzzbawls)
- - #852 `37e88b892f` [QT] Fix a display bug about zPIV mints (warrows)
+ - #852 `37e88b892f` [QT] Fix a display bug about zLABX mints (warrows)
  - #863 `89b84a4f5a` [Qt] Stop using a solid white image as a border image (Fuzzbawls)
 
 ### Miscellaneous

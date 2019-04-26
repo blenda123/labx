@@ -3041,8 +3041,8 @@ Please check the address and try again.</translation>
         <translation>The Dash Core developers</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>The PIVX Core developers</translation>
+        <source>The LABXX Core developers</source>
+        <translation>The LABXX Core developers</translation>
     </message>
     <message>
         <source>The Labx Coin developers</source>
@@ -3959,8 +3959,8 @@ for example: alertnotify=echo %%s | mail -s "Labx Coin Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
+        <source>Copyright (C) 2015-%i The LABXX Core Developers</source>
+        <translation>Copyright (C) 2015-%i The LABXX Core Developers</translation>
     </message>
     <message>
         <source>Copyright (C) 2017-%i The Labx Coin Developers</source>

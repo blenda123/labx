@@ -65,17 +65,17 @@ UniValue getinfo(const UniValue& params, bool fHelp)
             "  \"difficulty\": xxxxxx,       (numeric) the current difficulty\n"
             "  \"testnet\": true|false,      (boolean) if the server is using testnet or not\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zPIVsupply\" :\n"
+            "  \"zLABXsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zPIV denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zPIV denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zPIV denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zPIV denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zPIV denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zPIV denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zPIV denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zPIV denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zPIV denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zLABX denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zLABX denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zLABX denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zLABX denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zLABX denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zLABX denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zLABX denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zLABX denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zLABX denominations\n"
             "  }\n"
             "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
@@ -149,7 +149,7 @@ UniValue getinfo(const UniValue& params, bool fHelp)
         zpivObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
     zpivObj.push_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
-    obj.push_back(Pair("zPIVsupply", zpivObj));
+    obj.push_back(Pair("zLABXsupply", zpivObj));
 
 #ifdef ENABLE_WALLET
     if (pwalletMain) {
@@ -177,7 +177,7 @@ UniValue mnsync(const UniValue& params, bool fHelp)
     if (params.size() == 1)
         strMode = params[0].get_str();
 
-    if (fHelp || params.size() != 1 || (strMode != "status" && strMode != "reset")) {
+    if (fHelp || params.size() != 1 || (strMode != "status" && strMode != "next")) {
         throw runtime_error(
             "mnsync \"status|reset|next\"\n"
             "\nReturns the sync status or resets sync.\n"

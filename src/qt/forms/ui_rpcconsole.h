@@ -1165,7 +1165,7 @@ public:
         wallet_path->setText(QApplication::translate("RPCConsole", "N/A", Q_NULLPTR));
         wallet_custombackuppath_label->setText(QApplication::translate("RPCConsole", "Custom Backup Path:", Q_NULLPTR));
         wallet_custombackuppath->setText(QApplication::translate("RPCConsole", "N/A", Q_NULLPTR));
-        wallet_customzpivbackuppath_label->setText(QApplication::translate("RPCConsole", "Custom zPIV Backup Path:", Q_NULLPTR));
+        wallet_customzpivbackuppath_label->setText(QApplication::translate("RPCConsole", "Custom zLABX Backup Path:", Q_NULLPTR));
         wallet_customzpivbackuppath->setText(QApplication::translate("RPCConsole", "N/A", Q_NULLPTR));
         wallet_custombackupthreshold_label->setText(QApplication::translate("RPCConsole", "Custom Backups Threshold:", Q_NULLPTR));
         wallet_custombackupthreshold->setText(QApplication::translate("RPCConsole", "N/A", Q_NULLPTR));

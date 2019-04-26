@@ -40,7 +40,7 @@ BOOST_AUTO_TEST_CASE(zerocoin_wrapped_serial_spend_test)
     string strWalletFile = "unittestwallet.dat";
     CWalletDB walletdb(strWalletFile, "cr+");
     CWallet wallet(strWalletFile);
-    CzPIVWallet *czPIVWallet = new CzPIVWallet(wallet.strWalletFile);
+    CzLABXWallet *czLABXWallet = new CzLABXWallet(wallet.strWalletFile);
 
     // Get the 5 created mints.
     CoinDenomination denom = CoinDenomination::ZQ_FIFTY;
@@ -48,8 +48,8 @@ BOOST_AUTO_TEST_CASE(zerocoin_wrapped_serial_spend_test)
     for (unsigned int i = 0; i < TESTS_COINS_TO_ACCUMULATE; i++) {
         PrivateCoin coin(ZCParams, denom, false);
         CDeterministicMint dMint;
-        czPIVWallet->GenerateDeterministicZPIV(denom, coin, dMint, true);
-        czPIVWallet->UpdateCount();
+        czLABXWallet->GenerateDeterministicZLABX(denom, coin, dMint, true);
+        czLABXWallet->UpdateCount();
         vCoins.emplace_back(coin);
     }
 

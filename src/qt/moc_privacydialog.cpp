@@ -21,7 +21,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_PrivacyDialog_t {
     QByteArrayData data[33];
-    char stringdata0[699];
+    char stringdata0[701];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -50,19 +50,19 @@ QT_MOC_LITERAL(16, 259, 24), // "coinControlButtonClicked"
 QT_MOC_LITERAL(17, 284, 23), // "coinControlUpdateLabels"
 QT_MOC_LITERAL(18, 308, 28), // "coinControlClipboardQuantity"
 QT_MOC_LITERAL(19, 337, 26), // "coinControlClipboardAmount"
-QT_MOC_LITERAL(20, 364, 29), // "on_pushButtonMintzPIV_clicked"
-QT_MOC_LITERAL(21, 394, 30), // "on_pushButtonMintReset_clicked"
-QT_MOC_LITERAL(22, 425, 31), // "on_pushButtonSpentReset_clicked"
-QT_MOC_LITERAL(23, 457, 30), // "on_pushButtonSpendzPIV_clicked"
-QT_MOC_LITERAL(24, 488, 32), // "on_pushButtonZPivControl_clicked"
-QT_MOC_LITERAL(25, 521, 31), // "on_pushButtonHideDenoms_clicked"
-QT_MOC_LITERAL(26, 553, 31), // "on_pushButtonShowDenoms_clicked"
-QT_MOC_LITERAL(27, 585, 22), // "on_pasteButton_clicked"
-QT_MOC_LITERAL(28, 608, 21), // "minimizeDenomsSection"
-QT_MOC_LITERAL(29, 630, 9), // "fMinimize"
-QT_MOC_LITERAL(30, 640, 17), // "updateDisplayUnit"
-QT_MOC_LITERAL(31, 658, 20), // "updateAutomintStatus"
-QT_MOC_LITERAL(32, 679, 19) // "updateSPORK16Status"
+QT_MOC_LITERAL(20, 364, 30), // "on_pushButtonMintzLABX_clicked"
+QT_MOC_LITERAL(21, 395, 30), // "on_pushButtonMintReset_clicked"
+QT_MOC_LITERAL(22, 426, 31), // "on_pushButtonSpentReset_clicked"
+QT_MOC_LITERAL(23, 458, 31), // "on_pushButtonSpendzLABX_clicked"
+QT_MOC_LITERAL(24, 490, 32), // "on_pushButtonZPivControl_clicked"
+QT_MOC_LITERAL(25, 523, 31), // "on_pushButtonHideDenoms_clicked"
+QT_MOC_LITERAL(26, 555, 31), // "on_pushButtonShowDenoms_clicked"
+QT_MOC_LITERAL(27, 587, 22), // "on_pasteButton_clicked"
+QT_MOC_LITERAL(28, 610, 21), // "minimizeDenomsSection"
+QT_MOC_LITERAL(29, 632, 9), // "fMinimize"
+QT_MOC_LITERAL(30, 642, 17), // "updateDisplayUnit"
+QT_MOC_LITERAL(31, 660, 20), // "updateAutomintStatus"
+QT_MOC_LITERAL(32, 681, 19) // "updateSPORK16Status"
 
     },
     "PrivacyDialog\0setBalance\0\0CAmount\0"
@@ -76,10 +76,10 @@ QT_MOC_LITERAL(32, 679, 19) // "updateSPORK16Status"
     "coinControlUpdateLabels\0"
     "coinControlClipboardQuantity\0"
     "coinControlClipboardAmount\0"
-    "on_pushButtonMintzPIV_clicked\0"
+    "on_pushButtonMintzLABX_clicked\0"
     "on_pushButtonMintReset_clicked\0"
     "on_pushButtonSpentReset_clicked\0"
-    "on_pushButtonSpendzPIV_clicked\0"
+    "on_pushButtonSpendzLABX_clicked\0"
     "on_pushButtonZPivControl_clicked\0"
     "on_pushButtonHideDenoms_clicked\0"
     "on_pushButtonShowDenoms_clicked\0"
@@ -160,10 +160,10 @@ void PrivacyDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 4: _t->coinControlUpdateLabels(); break;
         case 5: _t->coinControlClipboardQuantity(); break;
         case 6: _t->coinControlClipboardAmount(); break;
-        case 7: _t->on_pushButtonMintzPIV_clicked(); break;
+        case 7: _t->on_pushButtonMintzLABX_clicked(); break;
         case 8: _t->on_pushButtonMintReset_clicked(); break;
         case 9: _t->on_pushButtonSpentReset_clicked(); break;
-        case 10: _t->on_pushButtonSpendzPIV_clicked(); break;
+        case 10: _t->on_pushButtonSpendzLABX_clicked(); break;
         case 11: _t->on_pushButtonZPivControl_clicked(); break;
         case 12: _t->on_pushButtonHideDenoms_clicked(); break;
         case 13: _t->on_pushButtonShowDenoms_clicked(); break;

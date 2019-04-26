@@ -617,23 +617,23 @@ public:
         threadsScriptVerif->setToolTip(QApplication::translate("OptionsDialog", "(0 = auto, <0 = leave that many cores free)", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_TOOLTIP
-        checkBoxZeromintEnable->setToolTip(QApplication::translate("OptionsDialog", "Enable automatic minting of PIV units to zPIV", Q_NULLPTR));
+        checkBoxZeromintEnable->setToolTip(QApplication::translate("OptionsDialog", "Enable automatic minting of LABX units to zLABX", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        checkBoxZeromintEnable->setText(QApplication::translate("OptionsDialog", "Enable zPIV Automint", Q_NULLPTR));
+        checkBoxZeromintEnable->setText(QApplication::translate("OptionsDialog", "Enable zLABX Automint", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        checkBoxZeromintAddresses->setToolTip(QApplication::translate("OptionsDialog", "Enable automatic zPIV minting from specific addresses", Q_NULLPTR));
+        checkBoxZeromintAddresses->setToolTip(QApplication::translate("OptionsDialog", "Enable automatic zLABX minting from specific addresses", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         checkBoxZeromintAddresses->setText(QApplication::translate("OptionsDialog", "Enable Automint Addresses", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        percentage_label->setToolTip(QApplication::translate("OptionsDialog", "Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)", Q_NULLPTR));
+        percentage_label->setToolTip(QApplication::translate("OptionsDialog", "Percentage of incoming LABX which get automatically converted to zLABX via Zerocoin Protocol (min: 10%)", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        percentage_label->setText(QApplication::translate("OptionsDialog", "Percentage of autominted zPIV", Q_NULLPTR));
+        percentage_label->setText(QApplication::translate("OptionsDialog", "Percentage of autominted zLABX", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelPreferredDenom->setToolTip(QApplication::translate("OptionsDialog", "Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available", Q_NULLPTR));
+        labelPreferredDenom->setToolTip(QApplication::translate("OptionsDialog", "Wait with automatic conversion to Zerocoin until enough LABX for this denomination is available", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
-        labelPreferredDenom->setText(QApplication::translate("OptionsDialog", "Preferred Automint zPIV Denomination", Q_NULLPTR));
+        labelPreferredDenom->setText(QApplication::translate("OptionsDialog", "Preferred Automint zLABX Denomination", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        preferredDenom->setToolTip(QApplication::translate("OptionsDialog", "Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available", Q_NULLPTR));
+        preferredDenom->setToolTip(QApplication::translate("OptionsDialog", "Wait with automatic conversion to Zerocoin until enough LABX for this denomination is available", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         tabWidget->setTabText(tabWidget->indexOf(tabMain), QApplication::translate("OptionsDialog", "&Main", Q_NULLPTR));
         labelStakeSplitThresholdText->setText(QApplication::translate("OptionsDialog", "Stake split threshold:", Q_NULLPTR));

@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>LABX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>LABX verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi PIV dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>LABX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LABXs from being stolen by malware infecting your computer.</source>
+        <translation>LABX verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi LABX dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI PIV&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LABX&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI LABX&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Espora la cronologia delle transazioni</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Operazioni di privacy per zPIV</translation>
+        <source>Privacy Actions for zLABX</source>
+        <translation>Operazioni di privacy per zLABX</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1103,7 +1103,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Può variare di +/- %1 uPIV per input.</translation>
+        <translation>Può variare di +/- %1 uLABX per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1262,7 +1262,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Welcome to Stakinglab Core.</source>
-        <translation>Benvenuto in PIVIX Core.</translation>
+        <translation>Benvenuto in LABXIX Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Stakinglab Core will store its data.</source>
@@ -1619,12 +1619,12 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Configura Offuscamento</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Usa 2 masternodi diversi per mescolare fino a 10000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 LABX</source>
+        <translation>Usa 2 masternodi diversi per mescolare fino a 10000 LABX</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Usa 8 masternodi diversi per mixare fino a 10000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 LABX</source>
+        <translation>Usa 8 masternodi diversi per mixare fino a 10000 LABX</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -1661,24 +1661,24 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Mappa la porta utilizzando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Attiva il conio automatico di unità PIV in zPIV</translation>
+        <source>Enable automatic minting of LABX units to zLABX</source>
+        <translation>Attiva il conio automatico di unità LABX in zLABX</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Attiva Conio automatico zPIV</translation>
+        <source>Enable zLABX Automint</source>
+        <translation>Attiva Conio automatico zLABX</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentuale di PIV in entrata che viene automaticamente convertita in zPIV attraverso il protocollo Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming LABX which get automatically converted to zLABX via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentuale di LABX in entrata che viene automaticamente convertita in zLABX attraverso il protocollo Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Percentuale di zPIV Percentuale di zPIV da coniare automaticamente</translation>
+        <source>Percentage of autominted zLABX</source>
+        <translation>Percentuale di zLABX Percentuale di zLABX da coniare automaticamente</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Denominazione preferita conio automatico zPIV</translation>
+        <source>Preferred Automint zLABX Denomination</source>
+        <translation>Denominazione preferita conio automatico zLABX</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1740,8 +1740,8 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Saldo totale, inclusi tutte le monete non disponibili.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>Bilancio PIV</translation>
+        <source>LABX Balance</source>
+        <translation>Bilancio LABX</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1756,14 +1756,14 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Il tuo saldo LABX corrente, incluse le transazioni non confermate e non mature</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>Bilancio zPIV</translation>
+        <source>zLABX Balance</source>
+        <translation>Bilancio zLABX</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zLABX are spendable.</source>
         <translation>Maturi: più di 20 conferme e più di 1 conio della stessa denominazione dopo il conio.
-Questi zPIV sono spendibili.</translation>
+Questi zLABX sono spendibili.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1794,8 +1794,8 @@ Questi zPIV sono spendibili.</translation>
         <translation>Spendibili:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>PIV bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zPIV.</translation>
+        <source>Locked LABX or Masternode collaterals. These are excluded from zLABX minting.</source>
+        <translation>LABX bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zLABX.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -1806,18 +1806,18 @@ Questi zPIV sono spendibili.</translation>
         <translation>Non confermati:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Il tuo saldo zPIV corrente, inclusi zPIV non confermati e non maturi</translation>
+        <source>Your current zLABX balance, unconfirmed and immature zLABX included.</source>
+        <translation>Il tuo saldo zLABX corrente, inclusi zLABX non confermati e non maturi</translation>
     </message>
     <message>
         <source>Recent transactions</source>
         <translation>Transazioni recenti</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zLABX.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Percentuale corrente di zPIV.
+        <translation>Percentuale corrente di zLABX.
 Se il conio automatico è attivato questa percentuale si stabilizzerà all'incirca sulla percentuale stabilita per il conio automatico (percentuale prestabilita = 10%).
 </translation>
     </message>
@@ -1881,12 +1881,12 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zLABX</source>
+        <translation>zLABX</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 LABX</source>
+        <translation>0.000 000 00 LABX</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1909,16 +1909,16 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPIV</source>
-        <translation>Immetti un importo di PIV da convertire in zPIV</translation>
+        <source>Enter an amount of Piv to convert to zLABX</source>
+        <translation>Immetti un importo di LABX da convertire in zLABX</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>Controllo zPIV</translation>
+        <source>zLABX Control</source>
+        <translation>Controllo zLABX</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>zPIV selezionati:</translation>
+        <source>zLABX Selected:</source>
+        <translation>zLABX selezionati:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1929,23 +1929,23 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>Spendi Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>zPIV disponibili disponibili per essere spesi (maturi e spendibili)</translation>
+        <source>Available (mature and spendable) zLABX for spending</source>
+        <translation>zLABX disponibili disponibili per essere spesi (maturi e spendibili)</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Bilancio Disponibile:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zLABX for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>zPIV disponibili disponibili per essere spesi (maturi e spendibili)
-Gli zPIV sono maturi quando hanno più di 20 conferme E più di 2 conii della stessa denominazione dopo che sono stati coniati</translation>
+zLABX are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>zLABX disponibili disponibili per essere spesi (maturi e spendibili)
+Gli zLABX sono maturi quando hanno più di 20 conferme E più di 2 conii della stessa denominazione dopo che sono stati coniati</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zLABX</source>
+        <translation>0 zLABX</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -1988,31 +1988,31 @@ Gli zPIV sono maturi quando hanno più di 20 conferme E più di 2 conii della st
         <translation>Statistiche Zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Saldo totale inclusi zPIV non confermati e non maturi</translation>
+        <source>Total Balance including unconfirmed and immature zLABX</source>
+        <translation>Saldo totale inclusi zLABX non confermati e non maturi</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
         <translation>Saldo totale Zerocoin:</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zLABX minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to labx.conf
 - disable: add 'enablezeromint=0' to labx.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zLABX
 
 </source>
-        <translation>Mostra lo stato corrente del conio automatico zPIV.
+        <translation>Mostra lo stato corrente del conio automatico zLABX.
 Per cambiare lo stato (riavvio necessario):
 - attivato: aggiungi 'enablezeromint=1' a labx.conf
 - disattivato: aggiungi 'enablezeromint=0' a labx.conf
 
 Per cambiare la percentuale (riavvio non necessario):
-- menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zPIV da coniare automaticamente
+- menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zLABX da coniare automaticamente
 
 </translation>
     </message>
@@ -2161,8 +2161,8 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Copia ammontare</translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>Conio zPIV</translation>
+        <source>zLABX Mint</source>
+        <translation>Conio zLABX</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2651,8 +2651,8 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zLABX</source>
+        <translation>zLABX</translation>
     </message>
     </context>
 <context>

@@ -141,7 +141,7 @@ UniValue blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool tx
         zpivObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
     zpivObj.push_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
-    result.push_back(Pair("zPIVsupply", zpivObj));
+    result.push_back(Pair("zLABXsupply", zpivObj));
 
     return result;
 }
@@ -179,17 +179,17 @@ UniValue getchecksumblock(const UniValue& params, bool fHelp)
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zPIVsupply\" :\n"
+            "  \"zLABXsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zPIV denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zPIV denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zPIV denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zPIV denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zPIV denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zPIV denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zPIV denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zPIV denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zPIV denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zLABX denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zLABX denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zLABX denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zLABX denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zLABX denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zLABX denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zLABX denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zLABX denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zLABX denominations\n"
             "  }\n"
             "}\n"
 
@@ -570,17 +570,17 @@ UniValue getblock(const UniValue& params, bool fHelp)
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zPIVsupply\" :\n"
+            "  \"zLABXsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zPIV denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zPIV denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zPIV denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zPIV denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zPIV denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zPIV denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zPIV denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zPIV denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zPIV denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zLABX denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zLABX denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zLABX denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zLABX denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zLABX denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zLABX denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zLABX denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zLABX denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zLABX denominations\n"
             "  }\n"
             "}\n"
 
@@ -1301,7 +1301,7 @@ UniValue getaccumulatorwitness(const UniValue& params, bool fHelp)
     CZerocoinSpendReceipt receipt;
 
     if (!GenerateAccumulatorWitness(pubCoin, accumulator, witness, nMintsAdded, strFailReason)) {
-        receipt.SetStatus(_(strFailReason.c_str()), ZPIV_FAILED_ACCUMULATOR_INITIALIZATION);
+        receipt.SetStatus(_(strFailReason.c_str()), ZLABX_FAILED_ACCUMULATOR_INITIALIZATION);
         throw JSONRPCError(RPC_DATABASE_ERROR, receipt.GetStatusMessage());
     }
 

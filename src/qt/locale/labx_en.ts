@@ -4224,7 +4224,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+1"/>
-        <source>The PIVX Core developers</source>
+        <source>The LABXX Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5378,7 +5378,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Labx Coin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
+        <source>Copyright (C) 2015-%i The LABXX Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -81,9 +81,10 @@ QToolBar > QToolButton {
 	font-weight: bold;
 	font-size: 13px;
 	color: #b8bfc8;
-	width: 255px;
+	width: 100px;
 	height: 80px;
 	text-align: left;
+	padding-top: 20px;
 }
 
 QToolBar > QToolButton:checked {
@@ -105,9 +106,9 @@ QMessageBox {
 QProgressBar {
 	color: #fff;
 	border: 1px solid transparent;
-	border-radius: 50px;
-	background-color: transparent;
+	background-color: #27c1f2;
 	border-style: none;
+	border-radius: 150px;
 }
 
 QProgressBar::chunk {
@@ -117,7 +118,7 @@ QProgressBar::chunk {
 
 QLabel#progressBarLabel {
 	background-color: transparent;
-	color: #fff;
+	/*color: #fff;*/
 	padding-left: 5px;
 	padding-right: 5px;
 }
@@ -829,14 +830,15 @@ QFrame[frameShape="4"] { /* QFrame::HLine == 0x0004 */
 }
 
 /* Headers */
-QWidget .QFrame#frame_Header { /* Header with Page-Title and PIVX-image */
+QWidget .QFrame#frame_Header { /* Header with Page-Title and LABXX-image */
 	min-width:400px;
 	background-color:#ffffff;
+	padding-left: 20px;
 }
 
 QWidget .QFrame#frame_BG { /* Background */
 	min-width:400px;
-	/* background-color:#ffffff; */
+	 background-color:#ffffff;
 }
 
 /**************************** OVERVIEW SCREEN *******************************************/
