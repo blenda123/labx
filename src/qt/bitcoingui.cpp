@@ -178,11 +178,11 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     frameBlocksLayout->setSpacing(3);
     unitDisplayControl = new UnitDisplayStatusBarControl();
     labelStakingIcon = new QLabel();
-    labelAutoMintIcon = new QPushButton();
-    labelAutoMintIcon->setObjectName("labelAutoMintIcon");
-    labelAutoMintIcon->setFlat(true); // Make the button look like a label, but clickable
-    labelAutoMintIcon->setStyleSheet(".QPushButton { background-color: rgba(255, 255, 255, 0);}");
-    labelAutoMintIcon->setMaximumSize(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE);
+//    labelAutoMintIcon = new QPushButton();
+//    labelAutoMintIcon->setObjectName("labelAutoMintIcon");
+//    labelAutoMintIcon->setFlat(true); // Make the button look like a label, but clickable
+//    labelAutoMintIcon->setStyleSheet(".QPushButton { background-color: rgba(255, 255, 255, 0);}");
+//    labelAutoMintIcon->setMaximumSize(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE);
     labelEncryptionIcon = new QPushButton();
     labelEncryptionIcon->setObjectName("labelEncryptionIcon");
     labelEncryptionIcon->setFlat(true); // Make the button look like a label, but clickable
@@ -192,7 +192,7 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     labelConnectionsIcon = new QPushButton();
     labelConnectionsIcon->setObjectName("labelConnectionsIcon");
     labelConnectionsIcon->setFlat(true); // Make the button look like a label, but clickable
-    labelConnectionsIcon->setStyleSheet(".QPushButton { background-color: rgba(255, 255, 255, 0);}");
+    labelConnectionsIcon->setStyleSheet(".QPushButton { background-color: #2abff1; padding-left: 10px; padding-right: 10px; border-radius: 15px;}");
     labelConnectionsIcon->setMaximumSize(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE);
     labelBlocksIcon = new QLabel();
 #ifdef ENABLE_WALLET
@@ -204,7 +204,7 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
         frameBlocksLayout->addStretch();
         frameBlocksLayout->addWidget(labelStakingIcon);
         frameBlocksLayout->addStretch();
-        frameBlocksLayout->addWidget(labelAutoMintIcon);
+//        frameBlocksLayout->addWidget(labelAutoMintIcon);
     }
 #endif // ENABLE_WALLET
     frameBlocksLayout->addWidget(labelTorIcon);
@@ -245,7 +245,7 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     connect(showBackupsAction, SIGNAL(triggered()), rpcConsole, SLOT(showBackups()));
     connect(labelConnectionsIcon, SIGNAL(clicked()), rpcConsole, SLOT(showPeers()));
     connect(labelEncryptionIcon, SIGNAL(clicked()), walletFrame, SLOT(toggleLockWallet()));
-    connect(labelAutoMintIcon, SIGNAL(clicked()), this, SLOT(optionsClicked()));
+//    connect(labelAutoMintIcon, SIGNAL(clicked()), this, SLOT(optionsClicked()));
 
     // Get restart command-line parameters and handle restart
     connect(rpcConsole, SIGNAL(handleRestart(QStringList)), this, SLOT(handleRestart(QStringList)));
@@ -272,10 +272,10 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     timerStakingIcon->start(10000);
     setStakingStatus();
 
-    QTimer* timerAutoMintIcon = new QTimer(labelAutoMintIcon);
-    connect(timerAutoMintIcon, SIGNAL(timeout()), this, SLOT(setAutoMintStatus()));
-    timerAutoMintIcon->start(10000);
-    setAutoMintStatus();
+//    QTimer* timerAutoMintIcon = new QTimer(labelAutoMintIcon);
+//    connect(timerAutoMintIcon, SIGNAL(timeout()), this, SLOT(setAutoMintStatus()));
+//    timerAutoMintIcon->start(10000);
+//    setAutoMintStatus();
 }
 
 BitcoinGUI::~BitcoinGUI()

@@ -1,5 +1,5 @@
 ---
-name: "labx-linux-3.2"
+name: "labx-linux-1.0.0"
 enable_cache: true
 suites:
 - "bionic"
